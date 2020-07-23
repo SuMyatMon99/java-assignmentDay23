@@ -19,6 +19,8 @@ public class ChildBranch extends Bank implements BankFunction{
 		ChildBranch cb = new ChildBranch(num);
 		cb.increment(num);
 		cb.decreasement(num);
+		
+		sc.close();
 	}
 
 	@Override
